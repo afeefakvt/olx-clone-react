@@ -14,7 +14,7 @@ const Navbar = () => {
  
   const [loginPop,setLoginPop] = useState(false)
   const [sellModal,setSellModal] =useState(false)
-  const {isLoggedIn,login,logout,user} =useUser()  
+  const {isLoggedIn,logout,user} =useUser()  
 
 
   const handleSellClick = () => {
